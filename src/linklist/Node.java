@@ -10,11 +10,11 @@ public class Node<T>{
 		this.setNextPoint(nextPoint);
 	}
 	
-	protected void setValue(T value) {
+	public void setValue(T value) {
 		this.value = value;
 	}
 	
-	protected void setNextPoint(Node<T> node) {
+	public void setNextPoint(Node<T> node) {
 		this.nextPoint = node;	
 	}
 	

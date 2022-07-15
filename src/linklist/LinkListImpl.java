@@ -4,7 +4,7 @@ package linklist;
 
 public class LinkListImpl<T> extends LinkList<T> {
 	private Node<T> head = null;
-	private Node<T> tail=null;
+	private Node<T> tail = null;
 	
 	private boolean indexInRange(int index) {
 		if (index ==0 && this.isEmpty()==true) {
